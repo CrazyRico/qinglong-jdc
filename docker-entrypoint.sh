@@ -49,9 +49,16 @@ fi
 echo -e "=============== 启动 JDC for qinglong2.8 ====================\n"
 cd /ql/jdc/
 if [ ! -f "config.toml" ]; then
-  cp -rf /ql/jdc-1.0.3/* ./
+  cp -rf /ql/jdc-1.0.4/* ./
 fi
-nohup /ql/jdc/JDC &
+arch=`arch`
+if [ $arch == 'x86_64' ]; then
+  echo -e "run x86_64 JDC\n"
+  nohup /ql/jdc/JDC &
+else
+  echo -e "try run arm JDC\n"
+  nohup /ql/jdc/JDC-ARM &
+fi
 echo -e "JDC启动成功...\n"
 
 echo -e "############################################################\n"
