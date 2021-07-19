@@ -35,10 +35,7 @@ $ docker build -t crazyrico/qinglong-jdc:latest .
 ![qinglong2.8](qinglong.png)
 ![jdc](jdc.png)
 
-# Special thanks to:
+# 感谢
 排名不分先后
-* [@whyour](https://github.com/whyour/)
-* [@dadaxiaoxiaod](https://github.com/dadaxiaoxiaod/)
-* [@shufflewzc](https://github.com/shufflewzc/)
-* [@NobyDa](https://github.com/NobyDa)
-* [@chavyleung](https://github.com/chavyleung)
+@whyour
+@dadaxiaoxiaod
