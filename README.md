@@ -34,7 +34,7 @@ $ docker build -t crazyrico/qinglong-jdc:latest .
 
 ![qinglong2.8](qinglong.png)
 ![jdc](jdc.png)
-![pic2](pic2.png)
+![pic2](pic2.jpg)
 
 # Special thanks to:
 排名不分先后
