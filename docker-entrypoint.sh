@@ -49,7 +49,7 @@ fi
 echo -e "=============== 启动 JDC for qinglong2.8 ====================\n"
 cd /ql/jdc/
 if [ ! -f "config.toml" ]; then
-  cp -rf /ql/jdc-1.0.4/* ./
+  cp -rf /ql/jdc-1.0.6/* ./
 fi
 arch=`arch`
 if [ $arch == 'x86_64' ]; then
